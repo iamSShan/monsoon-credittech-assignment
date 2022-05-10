@@ -13,11 +13,13 @@ Used multiple machine learning models
 | Algorithm | Accuracy     | ROC-AUC Score                 |
 | :-------- | :------- | :------------------------- |
 | Logistic Regression | 51% | 53.08% |
-| Random Forest | 86% | 44% |
-| XGBoost | 90% | 94.8% |
+| Gaussian Naive Bayes | 52% | 52.22% |
+| Decision Tree | 64% | 67.79% |
+| XGBoost | 90% | 94.88% |
+| Random Forest | 95% | 97.31% |
 
 
-We can see even though best `ROC-AUC Score` is achieved by XGBoost
+We can see even though best `ROC-AUC Score` is achieved by Random Forest and XGBoost
 
 ## Installation
 1. Clone this repository in your local system
@@ -26,3 +28,7 @@ We can see even though best `ROC-AUC Score` is achieved by XGBoost
 ## Run
 1. Make sure you have jupyter notebook installed
 2. Go to the project directory and run ``` jupyter notebook ```
+
+
+## Output
+Output file is saved here: `data/final_submission/final_submission_Shantanu_Sharma.csv`
